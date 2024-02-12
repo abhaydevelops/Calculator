@@ -82,8 +82,9 @@ form input.spc{
         text-align: right;
         flex: 1;
         margin: 0px 0;
-        padding: 5px;
+        padding: 5px 1px;
         font-size: 12px;
+        height: max-content;
         border: 1px solid rgb(201, 184, 184) ;
         border-radius: 5px;
         background: none;
