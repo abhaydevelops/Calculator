@@ -4,6 +4,12 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
+body{
+    background-image: url(./assets/1009034.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 .container
 {
     width: 100%;
@@ -12,23 +18,24 @@
     align-items: center;
     justify-content: center;
 }
+
 .calculator{
-   background-color: rgb(5, 64, 78); 
+   background-color: #07091d; 
    padding: 30px;
    border: 0;
    border-radius: 20px;
 }
 .calculator form input{
-
     border: 0;
-    border-radius: 5px;
+    border-radius: 50%;
     outline: 0;
-    box-shadow: (5px 5px  rgb(109, 99, 99));
     width: 60px;
     height: 60px;
     font-size: 25px;
-    color: rgb(102, 34, 34);
-    margin: 10px 0px;
+    background-color: #07091d;
+    color: white;
+    box-shadow: 1px 1px 12px white,-1px -1px 12px white;
+    margin: 20px 10px;
     cursor: pointer;
 }
 form .display{
@@ -41,8 +48,22 @@ form .display input{
     flex: 1;
     margin: 12px 0;
     padding: 10px;
+    border: 0;
+    border-radius: 10px;
     background: none;
+    box-shadow: none;
+    color: white;
 }
-form input .equal{
+form input.equal{
     width: 145px;
+    border-radius: 10px;
+}
+
+
+
+/* MObile structure */
+
+@media only screen and( max-width: 600px) {
+
+    
 }
