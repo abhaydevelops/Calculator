@@ -28,17 +28,18 @@ body{
 }
 .calculator form input{
     border: 0;
-    border-radius: 50%;
+    border-radius: 10px;
     outline: 0;
     width: 60px;
     height: 60px;
     font-size: 25px;
     background-color: #07091d;
-    color: white;
-    box-shadow: 1px 1px 12px white,-1px -1px 12px white;
+    color: rgb(201, 184, 184);
+    box-shadow: 5px 5px 12px rgb(114, 113, 136),-5px -5px 12px rgb(49, 49, 50);
     margin: 20px 10px;
     cursor: pointer;
 }
+
 form .display{
 display: flex;
 justify-content: flex-end;
@@ -49,22 +50,20 @@ form .display input{
     flex: 1;
     margin: 12px 0;
     padding: 10px;
-    border: 0;
+    border: 1px solid rgb(201, 184, 184) ;
     border-radius: 10px;
     background: none;
     box-shadow: none;
-    color: white;
+    color: rgb(201, 184, 184);
 }
 form input.equal{
     width: 145px;
     border-radius: 10px;
+    color: rgb(164, 164, 14);
 }
-
-
-
-/* MObile structure */
-
-@media only screen and( max-width: 600px) {
-
-
+form input.del{
+    color: rgb(159, 12, 12);
+}
+form input.spc{
+    color: rgb(14, 157, 157);
 }
