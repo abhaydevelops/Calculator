@@ -20,7 +20,8 @@ body{
 }
 
 .calculator{
-   background-color: #07091d; 
+   background-color: #07091d;
+   margin-top: 10px; 
    padding: 30px;
    border: 0;
    border-radius: 20px;
@@ -65,5 +66,5 @@ form input.equal{
 
 @media only screen and( max-width: 600px) {
 
-    
+
 }
