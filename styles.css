@@ -75,12 +75,13 @@ form input.spc{
     height: 20px;
     border-radius: 4px;
     font-size: 10px;
-    
+    margin: 10px 5px;
+    box-shadow: 2px 2px 12px rgb(114, 113, 136),-2px -2px 12px rgb(49, 49, 50);
     }
     form .display input{
         text-align: right;
         flex: 1;
-        margin: 6px 0;
+        margin: 0px 0;
         padding: 5px;
         font-size: 12px;
         border: 1px solid rgb(201, 184, 184) ;
@@ -90,7 +91,7 @@ form input.spc{
         color: rgb(201, 184, 184);
     }
     form input.equal{
-        width: 70px;
+        width: 55px;
         border-radius: 5px;
         color: rgb(164, 164, 14);
     }
