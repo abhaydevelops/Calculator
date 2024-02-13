@@ -71,8 +71,8 @@ form input.spc{
 @media only screen and (max-width: 400px){
 
     .calculator form input{
-    width: 20px;
-    height: 20px;
+    width: 35px;
+    height: 35px;
     border-radius: 4px;
     font-size: 10px;
     margin: 10px 5px;
@@ -102,8 +102,8 @@ form input.spc{
 @media only screen and (max-width: 800px){
 
     .calculator form input{
-    width: 25px;
-    height: 25px;
+    width: 40px;
+    height: 40px;
     border-radius: 5px;
     font-size: 12px;
     margin: 12px 6px;
