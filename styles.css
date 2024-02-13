@@ -30,9 +30,9 @@ body{
     border: 0;
     border-radius: 10px;
     outline: 0;
-    width: 60px;
-    height: 60px;
-    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
     background-color: #07091d;
     color: rgb(201, 184, 184);
     box-shadow: 5px 5px 12px rgb(114, 113, 136),-5px -5px 12px rgb(49, 49, 50);
@@ -84,7 +84,6 @@ form input.spc{
         margin: 0px 0;
         padding: 5px 1px;
         font-size: 12px;
-        height: max-content;
         border: 1px solid rgb(201, 184, 184) ;
         border-radius: 5px;
         background: none;
@@ -93,6 +92,37 @@ form input.spc{
     }
     form input.equal{
         width: 55px;
+        border-radius: 5px;
+        color: rgb(164, 164, 14);
+    }
+    
+
+}
+
+@media only screen and (max-width: 800px){
+
+    .calculator form input{
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin: 12px 6px;
+    box-shadow: 3px 3px 12px rgb(114, 113, 136),-3px -3px 12px rgb(49, 49, 50);
+    }
+    form .display input{
+        text-align: right;
+        flex: 1;
+        margin: 0px 0;
+        padding: 5px 1px;
+        font-size: 12px;
+        border: 1px solid rgb(201, 184, 184) ;
+        border-radius: 5px;
+        background: none;
+        box-shadow: none;
+        color: rgb(201, 184, 184);
+    }
+    form input.equal{
+        width: 67px;
         border-radius: 5px;
         color: rgb(164, 164, 14);
     }
