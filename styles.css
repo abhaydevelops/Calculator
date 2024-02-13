@@ -70,15 +70,6 @@ form input.spc{
 
 @media only screen and (max-width: 600px){
 
-    .container
-{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
     .calculator form input{
     width: 20px;
     height: 20px;
